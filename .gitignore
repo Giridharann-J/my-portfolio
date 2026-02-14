@@ -1,0 +1,26 @@
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+.firebaserc.backup
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build/Temp
+dist/
+.cache/
+*.log

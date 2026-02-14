@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Giri | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-transition" aria-hidden="true"></div>
+    <div class="loader" aria-hidden="true">
+      <div class="loader-inner">
+        <span class="loader-line">Engineering the experience</span>
+      </div>
+    </div>
+
+    <main class="page" id="top">
+      <section class="hero" id="hero">
+        <div class="hero-bg">
+          <div class="parallax orb orb-1"></div>
+          <div class="parallax orb orb-2"></div>
+          <div class="hero-grid" aria-hidden="true"></div>
+        </div>
+        <div class="hero-inner">
+          <div class="hero-badge">
+            <span>ECE 2026 Graduate</span>
+          </div>
+          <div class="hero-title">
+            <div class="line"><span class="line-inner">Giridharan</span></div>
+            <div class="line"><span class="line-inner">J</span></div>
+          </div>
+          <div class="hero-subtitle">
+            <p class="hero-role">Software Developer / Full Stack Developer</p>
+            <span class="hero-dot">•</span>
+            <p class="hero-location">Chennai, India</p>
+          </div>
+          <p class="hero-mission">Building usable, real-world products with precision and production-level discipline.</p>
+          <div class="hero-cta">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-scroll-indicator" aria-hidden="true">
+            <span>Scroll to explore</span>
+            <div class="scroll-line"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section profile" id="profile">
+        <div class="container profile-grid">
+          <div class="profile-card">
+            <div class="profile-frame">
+              <img src="profile.png" alt="Portrait of Giridharan J" loading="lazy" />
+            </div>
+          </div>
+          <div class="profile-copy">
+            <h2 class="section-title">Profile</h2>
+            <p>
+              Giridharan J, graduating in ECE, focused on engineering smooth web
+              experiences with production-level discipline.
+            </p>
+            <p>
+              I build systems that feel fast, reliable, and intentional across every
+              interaction.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container">
+          <h2 class="section-title">Intro</h2>
+          <div class="rule" aria-hidden="true"></div>
+          <div class="about-grid">
+            <p class="about-text">
+              I am a problem solver and project-based learner with a product mindset. I
+              focus on building usable applications that feel intuitive and engineered.
+            </p>
+            <p class="about-text">
+              My work emphasizes real-world impact, clean architecture, and smooth
+              interaction design that respects performance constraints.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="container">
+          <div class="skills-pin">
+            <div class="skills-header">
+              <h2 class="section-title">Skills</h2>
+              <p class="section-subtitle">Precision in tools, systems, and delivery.</p>
+            </div>
+            <div class="skills-stage">
+              <aside class="skills-rail">
+                <div class="skills-rail-head">
+                  <span>Categories</span>
+                  <div class="skills-progress" aria-hidden="true">
+                    <span class="progress-track"></span>
+                    <span class="progress-bar"></span>
+                  </div>
+                </div>
+                <ul class="skills-rail-list">
+                  <li data-target="skills-1">Programming Languages</li>
+                  <li data-target="skills-2">Web Technologies</li>
+                  <li data-target="skills-3">Backend / Database</li>
+                  <li data-target="skills-4">Cloud &amp; BaaS</li>
+                  <li data-target="skills-5">Tools &amp; Workflow</li>
+                  <li data-target="skills-6">Engineering Concepts</li>
+                  <li data-target="skills-7">Hardware &amp; IoT</li>
+                </ul>
+              </aside>
+              <div class="skills-panels">
+                <article class="skill-category" id="skills-1" data-direction="left">
+                  <div class="skill-header">
+                    <span class="skill-index">01</span>
+                    <h3>Programming Languages</h3>
+                  </div>
+                  <ul class="skill-chips">
+                    <li class="skill-chip">Python</li>
+                    <li class="skill-chip">Core Java</li>
+                  </ul>
+                </article>
+                <article class="skill-category" id="skills-2" data-direction="right">
+                  <div class="skill-header">
+                    <span class="skill-index">02</span>
+                    <h3>Web Technologies</h3>
+                  </div>
+                  <ul class="skill-chips">
+                    <li class="skill-chip">HTML</li>
+                    <li class="skill-chip">CSS</li>
+                    <li class="skill-chip">JavaScript</li>
+                  </ul>
+                </article>
+                <article class="skill-category" id="skills-3" data-direction="left">
+                  <div class="skill-header">
+                    <span class="skill-index">03</span>
+                    <h3>Backend / Database</h3>
+                  </div>
+                  <ul class="skill-chips">
+                    <li class="skill-chip">SQL</li>
+                    <li class="skill-chip">Firebase Authentication</li>
+                  </ul>
+                </article>
+                <article class="skill-category" id="skills-4" data-direction="right">
+                  <div class="skill-header">
+                    <span class="skill-index">04</span>
+                    <h3>Cloud &amp; BaaS</h3>
+                  </div>
+                  <ul class="skill-chips">
+                    <li class="skill-chip">Google Firebase (Auth, Hosting)</li>
+                    <li class="skill-chip">Cloudflare (DNS, CDN, Domain Management)</li>
+                  </ul>
+                </article>
+                <article class="skill-category" id="skills-5" data-direction="left">
+                  <div class="skill-header">
+                    <span class="skill-index">05</span>
+                    <h3>Tools &amp; Workflow</h3>
+                  </div>
+                  <ul class="skill-chips">
+                    <li class="skill-chip">Git</li>
+                    <li class="skill-chip">GitHub</li>
+                    <li class="skill-chip">VS Code</li>
+                    <li class="skill-chip">Vercel (CI/CD via GitHub)</li>
+                  </ul>
+                </article>
+                <article class="skill-category" id="skills-6" data-direction="right">
+                  <div class="skill-header">
+                    <span class="skill-index">06</span>
+                    <h3>Engineering &amp; Technical Concepts</h3>
+                  </div>
+                  <ul class="skill-chips">
+                    <li class="skill-chip">Responsive Web Design</li>
+                    <li class="skill-chip">Authentication Systems</li>
+                    <li class="skill-chip">Real-time Web Applications</li>
+                    <li class="skill-chip">Dashboard Development</li>
+                    <li class="skill-chip">Version Control</li>
+                    <li class="skill-chip">Production Deployment</li>
+                    <li class="skill-chip">AI-assisted development workflows</li>
+                  </ul>
+                </article>
+                <article class="skill-category" id="skills-7" data-direction="left">
+                  <div class="skill-header">
+                    <span class="skill-index">07</span>
+                    <h3>Hardware &amp; IoT Exposure</h3>
+                  </div>
+                  <ul class="skill-chips">
+                    <li class="skill-chip">ESP32-CAM</li>
+                    <li class="skill-chip">NFC</li>
+                    <li class="skill-chip">Facial Recognition systems</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <a
+              class="project-card"
+              href="https://lenv1.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="project-media">
+                <img src="assets/projects/lenv.svg" alt="LENV project preview" loading="lazy" />
+              </div>
+              <div class="project-content">
+                <h3>LENV (SaaS education platform)</h3>
+                <p>Modular learning workflows with subscription-ready UX.</p>
+              </div>
+            </a>
+            <a
+              class="project-card"
+              href="https://pool-consultant.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="project-media">
+                <img
+                  src="assets/projects/pool-consultant.svg"
+                  alt="Pool Consultant dashboard preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Pool Consultant Management Dashboard</h3>
+                <p>Operational dashboards tuned for clarity and speed.</p>
+              </div>
+            </a>
+            <a
+              class="project-card"
+              href="https://taras2k25.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="project-media">
+                <img
+                  src="assets/projects/taras2k25.svg"
+                  alt="ECE Symposium website preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3>ECE Symposium Website</h3>
+                <p>Event storytelling with a premium, high-traffic-ready build.</p>
+              </div>
+            </a>
+            <article class="project-card">
+              <div class="project-media">
+                <img
+                  src="assets/projects/smart-lock.svg"
+                  alt="Smart lock hardware preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Smart Lock with NFC &amp; Facial Recognition</h3>
+                <p>Hardware-meets-software systems for secure access control.</p>
+              </div>
+            </article>
+            <a
+              class="project-card"
+              href="https://rock-paper-sissors-game.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="project-media">
+                <img
+                  src="assets/projects/rps.svg"
+                  alt="Rock paper scissors game preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Rock Paper Scissors Game</h3>
+                <p>Real-time interactions with polished feedback loops.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="container">
+          <h2 class="section-title">Experience &amp; Achievements</h2>
+          <div class="timeline">
+            <span class="timeline-line" aria-hidden="true"></span>
+            <article class="timeline-item" data-side="left">
+              <h3>ECE Symposium Website Lead</h3>
+              <p>Led the end-to-end build and launch of the symposium platform.</p>
+            </article>
+            <article class="timeline-item" data-side="right">
+              <h3>Hackathon Winner</h3>
+              <p>Delivered rapid prototypes recognized for engineering quality.</p>
+            </article>
+            <article class="timeline-item" data-side="left">
+              <h3>Hackathon Finalist</h3>
+              <p>Shortlisted for innovative product thinking and execution.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-grid">
+            <div class="contact-links">
+              <a href="mailto:giridharanjj@gmail.com">giridharanjj@gmail.com</a>
+              <a href="https://github.com/Giridharann-J" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/giridharan-j" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+            <form class="contact-form">
+              <label class="field">
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@example.com" />
+              </label>
+              <label class="field">
+                <span>Message</span>
+                <textarea name="message" rows="4" placeholder="Tell me about your project"></textarea>
+              </label>
+              <button type="submit" class="button">Send message</button>
+              <p class="form-status" role="status">Thanks. I will get back to you shortly.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+    
+    <!-- Uncomment to enable Firebase Analytics -->
+    <!-- <script type="module" src="firebase-init.js"></script> -->
+  </body>
+</html>

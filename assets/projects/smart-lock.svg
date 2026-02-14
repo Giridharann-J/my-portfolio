@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Smart lock hardware preview">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1c2025" />
+      <stop offset="1" stop-color="#0f1113" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g)" />
+  <rect x="90" y="70" width="620" height="310" rx="24" fill="rgba(255,255,255,0.06)" />
+  <text x="130" y="190" fill="#f5f5f5" font-size="30" font-family="Arial, sans-serif">Smart Lock</text>
+  <text x="130" y="230" fill="#b7bcc4" font-size="18" font-family="Arial, sans-serif">NFC + Facial Recognition</text>
+  <rect x="130" y="265" width="200" height="10" rx="5" fill="rgba(255,255,255,0.12)" />
+  <rect x="130" y="290" width="260" height="10" rx="5" fill="rgba(255,255,255,0.12)" />
+</svg>

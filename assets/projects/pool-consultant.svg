@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Pool Consultant dashboard preview">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1b2025" />
+      <stop offset="1" stop-color="#101214" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g)" />
+  <rect x="70" y="60" width="660" height="330" rx="24" fill="rgba(255,255,255,0.05)" />
+  <text x="110" y="185" fill="#f5f5f5" font-size="30" font-family="Arial, sans-serif">Pool Consultant</text>
+  <text x="110" y="225" fill="#b7bcc4" font-size="18" font-family="Arial, sans-serif">Management dashboard</text>
+  <rect x="110" y="260" width="180" height="10" rx="5" fill="rgba(255,255,255,0.12)" />
+  <rect x="110" y="285" width="260" height="10" rx="5" fill="rgba(255,255,255,0.12)" />
+</svg>
